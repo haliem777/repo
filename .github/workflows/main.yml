@@ -10,7 +10,7 @@ on:
 
 jobs:
    ex_job:
-    runs-on: last
+    runs-on: ubuntu-latest
     steps:
     - name: print a welcome message
       run: echo "wlcome to our world"
